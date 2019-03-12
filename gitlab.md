@@ -43,4 +43,7 @@ https://docs.gitlab.com/omnibus/settings/unicorn.html
 
 查看备份文件的版本号
 https://stackoverflow.com/questions/26035262/how-to-find-version-of-gitlab-backup
+
+使用 docker
+https://docs.gitlab.com/omnibus/docker/
 ```
