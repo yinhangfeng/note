@@ -39,4 +39,7 @@ https://docs.gitlab.com/ce/administration/monitoring/prometheus/index.html
 
 如果 gitlab 不是独立部署 为防止占用太多资源需要配置 unicorn workers 数量
 https://docs.gitlab.com/omnibus/settings/unicorn.html
+
+查看备份文件的版本号
+https://stackoverflow.com/questions/26035262/how-to-find-version-of-gitlab-backup
 ```
