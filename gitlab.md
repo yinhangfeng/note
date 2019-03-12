@@ -29,6 +29,7 @@ https://docs.gitlab.com/omnibus/update/README.html#troubleshooting
 gitlab-rake gitlab:check SANITIZE=true
 
 查看版本
+gitlab-rake gitlab:env:info
 https://stackoverflow.com/questions/21068773/how-to-check-the-version-of-gitlab
 
 Import bare repositories into your GitLab instance  (没成功 创建的repo 为空)
