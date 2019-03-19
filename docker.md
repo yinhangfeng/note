@@ -2,6 +2,7 @@
 ## 安装
 
 https://yeasy.gitbooks.io/docker_practice/install/centos.html
+https://docs.docker.com/install/linux/docker-ce/centos/
 
 ### 镜像加速
 
