@@ -67,3 +67,11 @@ try {
 ```
 
 * generator
+
+##
+
+```javascript
+{
+  cacheData,
+}
+```
