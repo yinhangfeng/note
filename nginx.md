@@ -23,3 +23,13 @@ nginx -s reload
 
 https://juejin.im/post/5b518d1a6fb9a04fe548e8fc
 
+#### https
+
+http://nginx.org/en/docs/http/configuring_https_servers.html
+
+letsencrypt https://github.com/Neilpang/acme.sh
+
+#### http2
+
+http://nginx.org/en/docs/http/ngx_http_v2_module.html
+
