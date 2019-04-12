@@ -1,3 +1,6 @@
+https://docs.gitlab.com/ce/ci/quick_start/README.html
+https://docs.gitlab.com/ce/ci/yaml/README.html
+
 Runner
 https://docs.gitlab.com/runner/install/osx.html
 
