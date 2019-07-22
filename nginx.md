@@ -3,6 +3,8 @@
 
 https://nginx.org/en/linux_packages.html#RHEL-CentOS
 
+https://www.cyberciti.biz/faq/how-to-install-and-use-nginx-on-centos-7-rhel-7/
+
 ## 使用
 
 #### 检查配置文件
@@ -15,6 +17,14 @@ nginx -t
 
 ```shell
 nginx -s reload
+```
+
+#### systemctl
+
+```
+sudo systemctl enable nginx
+
+sudo systemctl start nginx
 ```
 
 ## 配置
@@ -33,4 +43,11 @@ letsencrypt https://github.com/Neilpang/acme.sh
 #### http2
 
 http://nginx.org/en/docs/http/ngx_http_v2_module.html
+
+
+## Error
+
+* Failed to read PID from file /run/nginx.pid: Invalid argument
+
+https://stackoverflow.com/questions/42078674/nginx-service-failed-to-read-pid-from-file-run-nginx-pid-invalid-argument
 
