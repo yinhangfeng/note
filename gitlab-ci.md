@@ -22,9 +22,13 @@ docker run -d --name gitlab-runner --restart always \
 ```
 docker run --rm -t -i gitlab/gitlab-runner --help
 ```
-
+#### 注册
 
 https://docs.gitlab.com/runner/register/index.html
+
+#### 在 docker runner 中使用 docker 命令
+
+https://docs.gitlab.com/ce/ci/docker/using_docker_build.html#use-docker-socket-binding
 
 ## Predefined environment variables reference
 https://docs.gitlab.com/ce/ci/variables/predefined_variables.html
