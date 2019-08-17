@@ -1,4 +1,7 @@
 
+## kubeadm
+https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/
+
 ## Config Files
 https://vsupalov.com/yaml-kubernetes-examples-docs-spec/
 ```
