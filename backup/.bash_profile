@@ -7,7 +7,9 @@ export ANDROID_NDK=$ANDROID_HOME/android-ndk-r17b
 export GRADLE_OPTS="-Dorg.gradle.daemon=true"
 export MY_TOOLS_HOME=~/tools
 
-export PATH=/usr/local/sbin:~/bin:$ANDROID_HOME/platform-tools:$ANDROID_HOME/tools/bin:$NDK_HOME:$MY_TOOLS_HOME:$MY_TOOLS_HOME/depot_tools:$MY_TOOLS_HOME/apktool:$MY_TOOLS_HOME/dex2jar:~/.yarn/bin:$MY_TOOLS_HOME/flutter/bin:$PATH
+export PATH=/usr/local/sbin:/usr/local/opt/ruby/bin:~/bin:$ANDROID_HOME/platform-tools:$ANDROID_HOME/tools/bin:$NDK_HOME:$MY_TOOLS_HOME:$MY_TOOLS_HOME/depot_tools:$MY_TOOLS_HOME/apktool:$MY_TOOLS_HOME/dex2jar:$MY_TOOLS_HOME/flutter/bin:$PATH
+# https://www.rust-lang.org/tools/install
+export PATH="$HOME/.cargo/bin:$PATH"
 
 # php
 # export PATH=/usr/local/opt/php@5.6/bin:/usr/local/opt/php@5.6/sbin:$PATH
@@ -63,7 +65,7 @@ alias proxy-socks-enable-git="proxy-disable-git"
 
 # http
 alias proxy-http-enable="export http_proxy=http://127.0.0.1:1081 && export https_proxy=http://127.0.0.1:1081"
-alias proxy-http-enable-git="git config --global http.proxy 'http_proxy://127.0.0.1:1081' && git config --global https.proxy 'https_proxy://127.0.0.1:1081'"
+alias proxy-http-enable-git="git config --global http.proxy 'http://127.0.0.1:1081' && git config --global https.proxy 'http://127.0.0.1:1081'"
 
 # nvm
 export NVM_DIR="$HOME/.nvm"
