@@ -32,6 +32,10 @@ docker run --rm -t -i gitlab/gitlab-runner --help
 
 https://docs.gitlab.com/runner/register/index.html
 
+#### 配置
+
+https://docs.gitlab.com/runner/configuration/advanced-configuration.html
+
 #### 在 docker runner 中使用 docker 命令
 
 https://docs.gitlab.com/ce/ci/docker/using_docker_build.html#use-docker-socket-binding
