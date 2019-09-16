@@ -17,6 +17,12 @@ docker run -d --name gitlab-runner --restart always \
    gitlab/gitlab-runner:latest
 ```
 
+* 配置文件位置
+
+```
+/srv/gitlab-runner/config/config.toml
+```
+
 * 使用容器中的 runner
 
 ```
