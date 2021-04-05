@@ -6,7 +6,7 @@ conda create -n tensorflow_gpuenv tensorflow-gpu
 conda activate tensorflow_gpuenv
 ```
 
-https://zhuanlan.zhihu.com/p/46579831
+https://docs.anaconda.com/anaconda/user-guide/tasks/tensorflow/
 https://www.anaconda.com/tensorflow-in-anaconda/
 
 ## 官方安装方法
